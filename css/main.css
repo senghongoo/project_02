@@ -45,7 +45,7 @@
     border-radius: 50%;
 }
 
-.section1 .mySwiper .swiper-scrollbar-drag {
+.section1 .brandSwiper .swiper-scrollbar-drag {
     background-color: #00a040;
 }
 
@@ -66,6 +66,46 @@
     z-index: 1;
 }
 
+.section2 .swiper {
+    width: 90%;
+    height: 700px;
+}
+
+.section2 .swiper-slide {
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+.section2 .swiper-slide img {
+    width: 720px;
+    height: 420px;
+    border-radius: 40px;
+}
+
+.section2 .swiper-button-next, .swiper-button-prev {
+    color: #00a040;
+}
+
+.section2 .textbox {
+    writing-mode: vertical-rl;
+    margin-left: -100px;
+    height: 420px;
+}
+
+.section2 .textbox h2 {
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.section2 .textbox p {
+    line-height: 40px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
 .section2 .background2 {
     width: 1600px;
     height: 400px;
@@ -79,15 +119,51 @@
     z-index: 2;
 }
 
+.section2 .notice {
+    display: flex;
+    align-items: center;
+}
+
+.section2 .notice h3 {
+    width: 400px;
+    height: 394px;
+    line-height: 394px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section2 .notice table {
+    width: 1200px;
+    height: 300px;
+    font-size: 24px;
+}
+
 .section3 {
     width: 100%;
     height: 2170px;
+    position: relative;
+}
+
+.section3 .copywriting {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.section3 .copywriting h1 {
+    font-size: 100px;
+    letter-spacing: 50px;
+    line-height: 160px;
+    color: #00a040;
 }
 
 .section3 img {
     width: 100%;
     margin-top: 200px;
     vertical-align: bottom;
+    z-index: 1;
 }
 
 .section3 .background1 {
@@ -128,7 +204,7 @@
     border-radius: 50%;
 }
 
-.section4 .mySwiper .swiper-scrollbar-drag {
+.section4 .brandSwiper .swiper-scrollbar-drag {
     background-color: #00a040;
 }
 
