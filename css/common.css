@@ -83,6 +83,17 @@ nav {
 /* footer */
 footer {
     width: 100%;
-    height: 870px;
+    height: 140px;
     background-color: #ededeb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > * {
+    margin: 0 50px;
+}
+
+footer p:nth-of-type(2) {
+    color: #c9c9ba;
 }

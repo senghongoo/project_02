@@ -13,3 +13,12 @@ var swiper = new Swiper(".conceptSwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+var swiper = new Swiper(".productSwiper", {
+  slidesPerView: 6,
+  spaceBetween: 20,
+  grabCursor: true,
+  scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+});

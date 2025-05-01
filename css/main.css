@@ -266,7 +266,7 @@
     border-radius: 50%;
 }
 
-.section4 .brandSwiper .swiper-scrollbar-drag {
+.section4 .productSwiper .swiper-scrollbar-drag {
     background-color: #00a040;
 }
 
@@ -287,6 +287,66 @@
     z-index: 1;
 }
 
+.section5 .wrap_campaign {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section5 .wrap_campaign > * {
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.section5 .campaign2 {
+    position: relative;
+    z-index: 0;
+    padding: 27px 100px;
+}
+
+.section5 .campaign2::before,
+.section5 .campaign2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #00a040, transparent);
+    z-index: -1;
+}
+
+.section5 .campaign2::before {
+    top: 0;
+}
+
+.section5 .campaign2::after {
+    bottom: 0;
+}
+
+.section5 img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.section5 .background1 p {
+    margin-left: 50px;
+    height: 150px;
+}
+
+.section5 .background1 span {
+    display: block;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section5 .campaign3 span {
+    margin-left: -20px;
+}
+
 .section5 .background2 {
     width: 1600px;
     height: 400px;
@@ -298,6 +358,26 @@
     right: 0;
     top: 820px;
     z-index: 2;
+}
+
+.section5 .activity {
+    display: flex;
+    align-items: center;
+}
+
+.section5 .activity h3 {
+    width: 400px;
+    height: 394px;
+    line-height: 394px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section5 .activity table {
+    width: 1000px;
+    height: 300px;
+    font-size: 24px;
+    margin-left: 30px;
 }
 
 .section6 {
