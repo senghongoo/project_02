@@ -95,5 +95,5 @@ footer > * {
 }
 
 footer p:nth-of-type(2) {
-    color: #c9c9ba;
+    color: gray;
 }
