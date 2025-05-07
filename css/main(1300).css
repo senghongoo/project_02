@@ -42,6 +42,10 @@
         display: flex;
     }
 
+    .section1 .swiper-slide {
+        text-align: center;
+    }
+
     .section1 .swiper-slide img {
         border: 1px solid lightgray;
         border-radius: 50%;
@@ -261,6 +265,10 @@
 
     .section4 .swiper-wrapper {
         display: flex;
+    }
+
+    .section4 .swiper-slide {
+        text-align: center;
     }
 
     .section4 .swiper-slide img {
