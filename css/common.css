@@ -129,8 +129,7 @@
         height: 2.08vw;
         /* 40px */
         margin: 2.08vw auto 0;
-        border: 0.16vw solid #00a040;
-        /* 3px */
+        border: 0.2vw solid #00a040;
         border-radius: 2.08vw;
         display: flex;
         justify-content: space-between;
@@ -199,6 +198,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    footer img {
+        width: 13.02vw;
     }
 
     footer>* {
@@ -310,6 +313,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    footer img {
+        width: 250px;
     }
 
     footer>* {

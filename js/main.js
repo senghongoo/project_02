@@ -1,9 +1,16 @@
 var swiper = new Swiper(".brandSwiper", {
-    slidesPerView: 6,
-    spaceBetween: "1vw",
+    slidesPerView: 2,
     grabCursor: true,
     scrollbar: {
         el: ".swiper-scrollbar",
+      },
+      breakpoints: {
+        600: {
+          slidesPerView: 4,
+        },
+        1300: {
+          slidesPerView: 6,
+        },
       },
 });
 
@@ -15,11 +22,18 @@ var swiper = new Swiper(".conceptSwiper", {
 });
 
 var swiper = new Swiper(".productSwiper", {
-  slidesPerView: 6,
-  spaceBetween: "1vw",
+  slidesPerView: 2,
   grabCursor: true,
   scrollbar: {
       el: ".swiper-scrollbar",
+    },
+    breakpoints: {
+      600: {
+        slidesPerView: 4,
+      },
+      1300: {
+        slidesPerView: 6,
+      },
     },
 });
 
