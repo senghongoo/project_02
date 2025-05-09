@@ -59,44 +59,39 @@
 
     .section2 {
         width: 100%;
-        height: 77.08vw;
-        position: relative;
+        height: 100vw;
+        margin-top: 5vw;
     }
 
     .section2 .background1 {
-        width: 83.33vw;
-        height: 41.67vw;
+        width: 100%;
+        height: 50vw;
         background-color: #f0f5ef;
-        border-radius: 0 2.08vw 2.08vw 0;
-        position: absolute;
-        left: 0;
-        top: 6.25vw;
-        z-index: 1;
     }
 
     .section2 .swiper {
-        width: 90%;
-        height: 36.46vw;
+        width: 100%;
+        height: 100%;
     }
 
     .section2 .swiper-slide {
         width: 80%;
-        height: 36.46vw;
+        height: 45vw;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
 
     .section2 .swiper-slide img {
-        width: 37.5vw;
-        height: 21.88vw;
+        width: 50vw;
+        height: auto;
         border-radius: 2.08vw;
     }
 
     .section2 .swiper-button-next::after,
     .swiper-button-prev::after {
         color: #00a040;
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     .section2 .textbox {
@@ -121,12 +116,8 @@
         height: 20.83vw;
         background-color: #ffffff;
         border: 0.3vw solid #f0f5ef;
+        border-left: none;
         border-right: none;
-        border-radius: 2.08vw 0 0 2.08vw;
-        position: absolute;
-        right: 0;
-        top: 42.71vw;
-        z-index: 2;
     }
 
     .section2 .notice {
@@ -150,7 +141,7 @@
 
     .section3 {
         width: 100%;
-        height: 133.85vw;
+        height: 136.5vw;
         position: relative;
     }
 
@@ -163,25 +154,28 @@
     }
 
     .section3 .copywriting h1 {
-        font-size: 5.21vw;
+        font-size: 6vw;
         letter-spacing: 2.6vw;
-        line-height: 8.33vw;
+        line-height: 10vw;
+        margin-left: 2.6vw;
         margin-bottom: 2.6vw;
         color: #00a040;
+        white-space: nowrap;
     }
 
     .section3 .copywriting p {
         padding-top: 2.6vw;
-        font-size: 2.08vw;
+        font-size: 3vw;
         letter-spacing: 0.52vw;
-        line-height: 5.21vw;
+        line-height: 6vw;
         text-align: center;
         color: #00a040;
+        white-space: nowrap;
     }
 
     .section3>img {
         width: 100%;
-        margin-top: 31.25vw;
+        margin-top: 35vw;
         vertical-align: bottom;
         z-index: 1;
     }
@@ -209,7 +203,7 @@
         position: absolute;
         top: 0;
         bottom: 0;
-        width: 0.156vw;
+        width: 0.3vw;
         background: linear-gradient(to top, rgba(0, 160, 64, 0.8), rgba(0, 160, 64, 0));
         z-index: -1;
     }
@@ -422,6 +416,7 @@
 
     .section6 h1 {
         font-size: 2.08vw;
+        margin-bottom: 3vw;
     }
 
     .section6 p {
@@ -448,6 +443,7 @@
 
     .section6 .TVSwiper .swiper-pagination {
         left: -10.42vw;
+        bottom: 0;
     }
 
     .section6 .TVSwiper .swiper-pagination-bullet {

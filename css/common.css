@@ -30,7 +30,6 @@
 
     #logo img {
         width: 50vw;
-        margin-left: -2vw;
     }
 
     #search {
@@ -38,25 +37,31 @@
     }
 
     .nav_sub {
-        margin-bottom: 5vw;
-        display: flex;
-        justify-content: center;
-        font-weight: 700;
-        color: gray;
-        font-size: 4vw;
+        display: none;
     }
 
     nav {
         width: 100%;
+        text-align: center;
+    }
+
+    nav h1 {
+        line-height: 8vw;
+        background-color: #00a040;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 4vw;
     }
 
     .nav_main {
-        margin-bottom: 5vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        line-height: 10vw;
+        display: none;
         font-weight: 700;
         font-size: 4vw;
+    }
+
+    .nav_main li:nth-of-type(even) {
+        background-color: #f0f5ef;
     }
 
     /* footer */
@@ -74,14 +79,14 @@
         margin-bottom: 5vw;
     }
 
-    footer p {
-        padding-bottom: 5vw;
-        font-size: 4vw;
+    footer p:nth-of-type(1) {
+        display: none;
     }
 
     footer p:nth-of-type(2) {
         color: gray;
         font-size: 4vw;
+        padding-bottom: 5vw;
     }
 }
 
@@ -91,13 +96,11 @@
     header {
         width: 100%;
         height: 9.375vw;
-        /* 180px */
     }
 
     .wrap_header {
         width: 90vw;
         height: 6.77vw;
-        /* 130px */
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -105,18 +108,14 @@
 
     .wrap_logo {
         width: 29.17vw;
-        /* 560px */
         display: flex;
         justify-content: space-between;
     }
 
     #logo {
         width: 11.46vw;
-        /* 220px */
         height: 2.86vw;
-        /* 55px */
         margin-top: 1.72vw;
-        /* 33px */
     }
 
     #logo img {
@@ -125,9 +124,7 @@
 
     #search {
         width: 13.02vw;
-        /* 250px */
         height: 2.08vw;
-        /* 40px */
         margin: 2.08vw auto 0;
         border: 0.2vw solid #00a040;
         border-radius: 2.08vw;
@@ -137,16 +134,12 @@
 
     #search input {
         width: 9.38vw;
-        /* 180px */
         line-height: 1.77vw;
-        /* 34px */
         border: 0;
         border-radius: 2.08vw;
         outline: none;
         padding-left: 1.04vw;
-        /* 20px */
         font-size: 0.83vw;
-        /* 약 16px */
     }
 
     #search input::placeholder {
@@ -156,30 +149,28 @@
 
     #search i {
         color: #00a040;
-        font-size: 1.04vw;
-        /* 20px */
         line-height: 1.77vw;
-        /* 34px */
         margin: 0 auto;
+        font-size: 1.04vw;
     }
 
     .nav_sub {
         margin-top: 2.08vw;
-        /* 40px */
         line-height: 2.08vw;
-        /* 40px */
         display: flex;
-        font-weight: 700;
         color: gray;
+        font-weight: 700;
         font-size: 0.94vw;
-        /* 약 18px */
     }
 
     nav {
         width: 90vw;
         height: 2.6vw;
-        /* 50px */
         margin: 0 auto;
+    }
+
+    nav h1 {
+        display: none;
     }
 
     .nav_main {
@@ -193,7 +184,6 @@
     footer {
         width: 100%;
         height: 7.29vw;
-        /* 140px */
         background-color: #ededeb;
         display: flex;
         justify-content: space-between;
@@ -206,18 +196,15 @@
 
     footer>* {
         margin: 0 2.6vw;
-        /* 50px */
     }
 
     footer p {
         font-size: 0.83vw;
-        /* 약 16px */
     }
 
     footer p:nth-of-type(2) {
         color: gray;
         font-size: 0.78vw;
-        /* 약 15px */
     }
 
 }
@@ -280,23 +267,27 @@
 
     #search i {
         color: #00a040;
-        font-size: 20px;
         line-height: 34px;
         margin: 0 auto;
+        font-size: 20px;
     }
 
     .nav_sub {
         margin-top: 40px;
         line-height: 40px;
         display: flex;
-        font-weight: 700;
         color: gray;
+        font-weight: 700;
     }
 
     nav {
         width: 1280px;
         height: 50px;
         margin: 0 auto;
+    }
+
+    nav h1 {
+        display: none;
     }
 
     .nav_main {

@@ -422,6 +422,7 @@
 
     .section6 h1 {
         font-size: 2.08vw;
+        margin-bottom: 3vw;
     }
 
     .section6 p {
@@ -448,6 +449,7 @@
 
     .section6 .TVSwiper .swiper-pagination {
         left: -10.42vw;
+        bottom: 0;
     }
 
     .section6 .TVSwiper .swiper-pagination-bullet {
