@@ -52,6 +52,22 @@ var swiper = new Swiper(".TVSwiper", {
 });
 
 $(function () {
+  const $input = $('#search > input');
+  const originalPlaceholder = $input.attr('placeholder');
+
+  $input.on('focus', function () {
+    $(this).attr('placeholder', '');
+  });
+
+  $(document).on('click', function (e) {
+    if (!$(e.target).is('#search > input')) {
+      $input.val('');
+      $input.attr('placeholder', originalPlaceholder);
+    }
+  });
+})
+
+$(function () {
   function bindNavToggle() {
     if (window.innerWidth <= 600) {
       $('nav > h1').off('click').on('click', function () {

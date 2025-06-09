@@ -53,6 +53,10 @@
         font-size: 4vw;
     }
 
+    nav h1:hover {
+        cursor: pointer;
+    }
+
     .nav_main {
         line-height: 10vw;
         display: none;
@@ -77,6 +81,10 @@
         width: 50vw;
         margin-top: 5vw;
         margin-bottom: 5vw;
+    }
+
+    footer img:hover {
+        cursor: pointer;
     }
 
     footer p:nth-of-type(1) {
@@ -194,6 +202,10 @@
         width: 13.02vw;
     }
 
+    footer img:hover {
+        cursor: pointer;
+    }
+
     footer>* {
         margin: 0 2.6vw;
     }
@@ -308,6 +320,10 @@
 
     footer img {
         width: 250px;
+    }
+
+    footer img:hover {
+        cursor: pointer;
     }
 
     footer>* {
