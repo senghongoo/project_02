@@ -80,33 +80,38 @@
     footer img {
         width: 50vw;
         margin-top: 5vw;
-        margin-bottom: 5vw;
+        margin-bottom: 7vw;
     }
 
     footer img:hover {
         cursor: pointer;
     }
 
-    footer p:nth-of-type(1) {
+    footer .wrap p {
         display: none;
-    }
-
-    footer p:nth-of-type(2) {
-        color: gray;
-        font-size: 4vw;
-        padding-bottom: 5vw;
     }
 
     .rights {
         width: 100%;
-        height: 20vw;
+        height: 15vw;
         background-color: #ededeb;
         color: gray;
         font-size: 2.5vw;
-        padding-top: 6vw;
-        padding-left: 2.5vw;
     }
 
+    .rights p {
+        margin: 0 auto;
+        color: gray;
+        font-size: 2vw;
+    }
+
+    .rights p:nth-of-type(1) {
+        padding-bottom: 2vw;
+    }
+
+    .rights p:nth-of-type(2) {
+        width: 80vw;
+    }
 }
 
 @media (min-width:600px) and (max-width:1300px) {
@@ -202,8 +207,14 @@
     /* footer */
     footer {
         width: 100%;
-        height: 7.29vw;
+        height: 16.66vw;
         background-color: #ededeb;
+    }
+
+    footer .wrap {
+        width: 90vw;
+        height: 7.29vw;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -211,6 +222,7 @@
 
     footer img {
         width: 13.02vw;
+        margin-left: -0.52vw;
     }
 
     footer img:hover {
@@ -225,19 +237,18 @@
         font-size: 0.83vw;
     }
 
-    footer p:nth-of-type(2) {
-        color: gray;
+    footer .wrap p {
         font-size: 0.78vw;
     }
 
     .rights {
-        width: 100%;
-        height: 6vw;
+        width: 90vw;
+        line-height: 1.3vw;
+        margin: 0 auto;
         background-color: #ededeb;
         color: gray;
         font-size: 0.78vw;
-        padding-top: 2vw;
-        padding-left: 2vw;
+        padding: 4.16vw 0 2.6vw 0.52vw;
     }
 
 }
@@ -332,8 +343,14 @@
     /* footer */
     footer {
         width: 100%;
-        height: 140px;
+        height: 320px;
         background-color: #ededeb;
+    }
+
+    footer .wrap {
+        width: 1280px;
+        height: 140px;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -341,28 +358,25 @@
 
     footer img {
         width: 250px;
+        margin-left: -10px;
     }
 
     footer img:hover {
         cursor: pointer;
     }
 
-    footer>* {
-        margin: 0 50px;
-    }
-
-    footer p:nth-of-type(2) {
-        color: gray;
+    footer .wrap p {
+        font-size: 0.78vw;
     }
 
     .rights {
-        width: 100%;
-        height: 5.5vw;
+        width: 1280px;
+        line-height: 25px;
+        margin: 0 auto;
         background-color: #ededeb;
         color: gray;
         font-size: 0.78vw;
-        padding-top: 2vw;
-        padding-left: 2vw;
+        padding: 80px 0 50px 10px;
     }
 
 }
